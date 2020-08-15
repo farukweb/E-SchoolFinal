@@ -1,0 +1,168 @@
+body{
+    
+}
+.header{
+    background-color: #F0FFF0;
+}
+#menu-item{
+    color: black;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+}
+#signin{
+    background: #21B573;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+
+/* Banner css */
+
+#banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #F0FFF0;
+    background-size: cover;
+    padding-top: 80px;
+}
+@media(max-width:767px){
+    #banner{
+        height: auto;
+        padding: 100px 0 60px 0;
+    }
+    #banner .container{
+        height: auto !important;
+    }
+
+}
+@media(min-width:992px){
+    #banner.into-info{
+        padding-top: 80px;
+    }
+}
+@media (max-width: 767px) {
+    #banner .intro-info {
+      text-align: center;
+      padding-top: 40px;
+    }
+  }
+  
+  #banner .intro-info h2 {
+    color: #413e66;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  #banner .intro-info h2 span {
+    color: #21B573;
+  }
+  
+  @media (max-width: 767px) {
+    #banner .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  #banner .intro-info .btn-get-started {
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 33px;
+    transition: 0.5s;
+    color: #fff;
+    background: #21B573;
+    text-decoration: none;
+  }
+  
+  #change-color{
+      color: red;
+  }
+   /* Course topics and student */
+
+   .course-categories{
+    height: 400px;
+    padding-top: 50px;
+  
+}
+.top1, .top3, .top4{
+  background: #F8FFFB;
+  border-radius: 10px;
+  padding: 30px 20px;
+  margin-top: 15px;
+}
+.top2{
+  background-color: white;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-top: 20px
+}
+.topics{
+  padding: 20px;
+}
+
+/* Course Name and topics */
+#online-coursename{
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+.btn-clr{
+    background: #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+    color: white;
+  }
+  .card{
+    background-color: white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 10px;
+  }
+
+  /* customer comment */
+  .comment-section{
+    height: 300px;
+    width: auto;
+    margin-top: 160px;
+  }
+  .image{
+      margin-left: 177px;
+  }
+  
+  .comment{
+    margin-top: 60px;
+  }
+
+  /* Contact page */
+  .contact-page{
+      height: auto;
+      padding-bottom: 60px;
+      background-color: #f6f6f6;
+      
+  }
+  .contact h2{
+      padding-top: 80px;
+      margin-bottom: 60px;
+  }
+ 
+  /* Footer */
+  footer{
+    height: auto;
+    width: auto;
+    background: #282531;
+    color: white;
+    padding-top: 50px;
+  }
+  .course{
+    list-style: none;
+  }
+  .course li a{
+    text-decoration: none;
+    color: white;
+  }
+  .Copyright{
+      padding-top: 36px;
+  }
